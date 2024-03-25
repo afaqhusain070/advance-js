@@ -46,10 +46,10 @@ const getData = {
 //   .then((res) => console.log(res));
 // //   .catch((error) => console.log(error));
 
-// getData
-//   .get("https://jsonplaceholder.typicode.com/posts/5")
-//   .then((res) => console.log(res));
-
-deletData
-  .delete("https://jsonplaceholder.typicode.com/posts/5")
+getData
+  .get("https://jsonplaceholder.typicode.com/posts/5")
   .then((res) => console.log(res));
+
+// deletData
+//   .delete("https://jsonplaceholder.typicode.com/posts/5")
+//   .then((res) => console.log(res));
