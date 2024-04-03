@@ -29,7 +29,7 @@ const itemCtrl = (() => {
   }
   return {
     add: add,
-    // get: get,
+    get: get,
   };
 })();
 itemCtrl.add({ id: 1, name: "jhn" });
